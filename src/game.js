@@ -7,11 +7,11 @@ import Settings from './scenes/Settings.js';
 
 const config = {
   type: Phaser.AUTO,
-  width: 2000,
-  height: 1000,
+  width: 910,
+  height: 810,
   physics: {
     default: 'arcade',
-    arcade: { gravity: { y: 300 }, debug: false }
+    arcade: {  debug: false }
   },
   scene: [MainMenu, Level1, Level2, GameOver, WinScreen, Settings]
 };

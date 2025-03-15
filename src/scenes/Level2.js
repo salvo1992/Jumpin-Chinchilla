@@ -4,9 +4,9 @@ export default class Level2 extends Phaser.Scene {
     }
   
     preload() {
-      this.load.image('level2-bg', '../assets/backgrounds/forest2.png');
-      this.load.image('ground', '../assets/ui/platform.png');
-      this.load.spritesheet('chinchilla', '../assets/sprites/chinchilla_spritesheet.png', {
+      this.load.image('level2-bg', '../../assets/backgrounds/forest2.png');
+      this.load.image('ground', '../../assets/ui/platform.png');
+      this.load.spritesheet('chinchilla', '../../assets/sprites/chinchilla_spritesheet.png', {
         frameWidth: 64,
         frameHeight: 64
       });
